@@ -12,6 +12,7 @@ And you can configure the screenshake setting with the *set_screenshake_options*
 camera.set_screenshake_options({
     pos_factor: 1,
     angle_factor: 0,
+    zoom_factor: 0,
 });
 ```
 
@@ -21,6 +22,7 @@ camera.set_screenshake_options({
 |:--------------------------:|:------:|-------------------------------------------------------------|
 |   screenshake_pos_factor   | number | How much the *force* should influence the camera's position |
 |  screenshake_angle_factor  | number | How much the *force* should influence the camera's angle    |
+|  screenshake_zoom_factor  | number | How much the *force* should influence the camera's zoom      |
 
 ## Related methods:
 ```ts
@@ -43,4 +45,5 @@ The *config* parameter needs to be a struct with the following possible fields:
 |:------------:|:------:|---------------------------------------------|
 |  pos_factor  | number | How much the *force* should influence the camera's position |
 | angle_factor | number | How much the *force* should influence the camera's angle    |
+| zoom_factor  | number | How much the *force* should influence the camera's zoom     |
 

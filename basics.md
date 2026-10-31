@@ -72,7 +72,7 @@ Gets the y position of the camera. <br>
 function XijCamera.get_pos_juice(): [number, number];
 ```
 Gets the position of the camera, *including game juice effects*, as an array of two elements, x and y. <br>
-**Return Type**: number
+**Return Type**: \[number, number]
 
 --- 
 
@@ -107,6 +107,14 @@ Gets the height of the camera. <br>
 **Return Type**: number
 
 ---
+
+```ts
+function XijCamera.get_size_juice(): [number, number];
+```
+Gets the size of the camera, *including game juice effects*, as an array of two elements, width and height. <br>
+**Return Type**: \[number, number]
+
+--- 
 
 ```ts
 function XijCamera.get_width_juice(): number;
